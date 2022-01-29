@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dizzy</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="./css/animate.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar__elements">
+                    <div class="nav__brand wow backInLeft">
+                        <a href="#"><img src="./img/logo.svg" alt="logo"></a>
+                    </div>
+                    <div class="menuToggle icon">
+                        <div class="hamburger"></div>
+                    </div>
+                    <div class="nav__links wow backInRight">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#about__us">О нас</a></li>
+                        <li><a href="#asorts">Ассорти</a></li>
+                        <li><a href="#contact__us">Контакты</a></li>
+                        <li><a href="#">Блог</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="info__block" class="info__block">
+                <div class="info__intro wow backInLeft">
+                    <h1>
+                        Лучшие напитики, <br>
+                        энергетики <span>в<br>
+                            Казахстане</span>
+                    </h1>
+                    <button>Заказать</button>
+                </div>
+                <div class="info__img">
+                    <img src="./img/img1.png" alt="img">
+                </div>
+            </section>
+            <section id="about__us" class="about__us">
+                <div class="about__intro wow backInLeft">
+                    <h1>
+                        О нас
+                    </h1>
+                    <p>
+                        Мы молодая растущая компания в <br>
+                        Алматы, мы продаваем <br>
+                        грузоперевозим энергетиков, напитков <br>
+                        и др. Если ты не попробуешь наши <br>
+                        ассортименты ты упустишь шанс найти <br>
+                        точно такую же! Поэтому покупай быстрее<br>
+                        чтобы не упустить шанс!
+                    </p>
+                </div>
+                <div class="about__img">
+                    <img src="./img/about_img.svg" alt="about__img">
+                </div>
+            </section>
+            <section id="asorts" class="asorts">
+                <div class="asort__intro wow backInDown">
+                    <h1>Ассортименты</h1>
+                </div>
+                <div class="asort__carousel wow backInLeft">
+                    <div class="asort__card">
+                        <div class="drink__ml">
+                            <p>0.33 ML</p>
+                        </div><a href="#">
+                            <img src="./img/dizzy.svg" alt="dizzy"></a>
+                        <h1>Dizzy Classic</h1>
+                    </div>
+                    <div class="asort__card">
+                        <div class="drink__ml">
+                            <p>250 ML</p>
+                        </div><a href="#">
+                            <img src="./img/vitamin_c.svg" alt="dizzy"></a>
+                        <h1>Vitamin C</h1>
+                    </div>
+                    <div class="asort__card">
+                        <div class="drink__ml">
+                            <p>500 ML</p>
+                        </div><a href="#">
+                            <img src="./img/dizzy_can.svg" alt="dizzy"></a>
+                        <h1>Dizzy Can</h1>
+                    </div>
+                    <div class="asort__card">
+                        <div class="drink__ml">
+                            <p>0.33 ML</p>
+                        </div><a href="#">
+                            <img src="./img/dizzy.svg" alt="dizzy"></a>
+                        <h1>Dizzy Classic</h1>
+                    </div>
+                    <div class="asort__card">
+                        <div class="drink__ml">
+                            <p>0.33 ML</p>
+                        </div><a href="#">
+                            <img src="./img/dizzy.svg" alt="dizzy"></a>
+                        <h1>Dizzy Classic</h1>
+                    </div>
+                    <div class="asort__card">
+                        <div class="drink__ml">
+                            <p>0.33 ML</p>
+                        </div><a href="#">
+                            <img src="./img/dizzy.svg" alt="dizzy"></a>
+                        <h1>Dizzy Classic</h1>
+                    </div>
+                </div>
+            </section>
+            <section id="contact__us" class="contact__us wow backInLeft">
+                <div class="contact__intro">
+                    <h1>
+                        Контакты
+                    </h1>
+                    <p>
+                        Введите ваш номер чтобы мы <br>
+                        позвонили вам
+                    </p>
+                </div>
+                <div class="contact__form">
+                    <form action="">
+                        <input type="text" placeholder="Ваш номер">
+                        <button>Позвонить мне!</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__links wow backInLeft">
+            <div class="container">
+                <div class="footer__link wow backInLeft">
+                    <li><a href="#" class="home">Главная</a></li>
+                    <li><a href="#about__us">О нас</a></li>
+                    <li><a href="#asorts">Ассорти</a></li>
+                    <li><a href="#contact__us">Контакты</a></li>
+                    <li><a href="#">Блог</a></li>
+                </div>
+                <hr>
+                <a href="#">Company Name 2022</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./libs/slick/slick.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
